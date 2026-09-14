@@ -4,7 +4,7 @@ plugins {
 }
 
 group = "com.liquid.ide.tooling"
-version = "1.0.0"
+version = "1.0.0-beta"
 
 repositories {
     mavenCentral()
