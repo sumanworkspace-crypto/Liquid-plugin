@@ -1,0 +1,60 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.liquid.ide.tooling",
+    "module": "liquid-plugin",
+    "version": "1.0.0-beta",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.5"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "files": [
+        {
+          "name": "liquid-plugin-1.0.0-beta.jar",
+          "url": "liquid-plugin-1.0.0-beta.jar",
+          "size": 2723,
+          "sha512": "497bffbf389fdce665950fd509df57d849b19e1da172c97e0bdd7ce525559a09c4064cd3895f1d3deeda55f4575de601a72b6f9c262c53a0b441a020db8e4265",
+          "sha256": "0953f2dc13a4586a806fbf8634962adda693c4aaff3529c081b4f89c3685530d",
+          "sha1": "121b37b23767c32f65f02e97f53e49f160ce0709",
+          "md5": "7ee2eb1b58b48e2676242b6f1acb9e39"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "liquid-plugin-1.0.0-beta.jar",
+          "url": "liquid-plugin-1.0.0-beta.jar",
+          "size": 2723,
+          "sha512": "497bffbf389fdce665950fd509df57d849b19e1da172c97e0bdd7ce525559a09c4064cd3895f1d3deeda55f4575de601a72b6f9c262c53a0b441a020db8e4265",
+          "sha256": "0953f2dc13a4586a806fbf8634962adda693c4aaff3529c081b4f89c3685530d",
+          "sha1": "121b37b23767c32f65f02e97f53e49f160ce0709",
+          "md5": "7ee2eb1b58b48e2676242b6f1acb9e39"
+        }
+      ]
+    }
+  ]
+}
