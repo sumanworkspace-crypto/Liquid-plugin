@@ -3,7 +3,7 @@ name: Publish Maven Artifacts
 on:
   push:
     branches:
-      - dev
+      - main
   workflow_dispatch:
 
 permissions:
@@ -42,7 +42,7 @@ jobs:
           if [ -n "$(git status --porcelain)" ]; then
             git add maven/
             git commit -m "chore: publish Maven artifacts for version 1.0.0"
-            git push origin dev
+            git push origin main
           else
             echo "No changes to commit"
           fi
